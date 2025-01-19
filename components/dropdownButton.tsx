@@ -1,17 +1,9 @@
-import { usePathname } from "next/navigation"
-import { useEffect } from "react";
-
 interface functionProps {
     classFetch: (pathname: string) => string;
 }
 
 export const DropdownButton = ( {props}: {props: functionProps}) => {
-    // const path = usePathname();
-
-    // useEffect(() => {
-    //     import("flowbite");
-    // }, [path]);
-
+    
     return <>
         <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className={`flex items-center ${props.classFetch("/services")}`}>
             <span>Services</span>

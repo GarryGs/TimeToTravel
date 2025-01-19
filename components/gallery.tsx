@@ -1,4 +1,3 @@
-import {Carousel} from "flowbite";
 
 export const Gallery = () => {
     return (
