@@ -5,7 +5,7 @@ const TouristProps = {
     title: "Tourist Visa",
 }
 
-export default function () {
+export default function TouristVisa() {
     return <>
         <ServiceHeading props={TouristProps}></ServiceHeading>
         <div className="grid grid-cols-1 xl:grid-cols-2 mx-6 xl:mx-60 my-16 gap-10">

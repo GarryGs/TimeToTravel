@@ -5,7 +5,7 @@ const SpouseProps = {
     title: "Spouse Visa",
 };
 
-export default function () {
+export default function SpouseVisa() {
     return (
         <>
             <ServiceHeading props={SpouseProps} />

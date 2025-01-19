@@ -2,7 +2,7 @@
 
 import { ContactComp } from "@components/ContactComp";
 
-export default function() {
+export default function Contact() {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 

@@ -5,7 +5,7 @@ const StudyProps = {
     title: "Study Visa",
 }
 
-export default function () {
+export default function StudyVisa() {
     return <div>
         <ServiceHeading props={StudyProps}></ServiceHeading>
         {/* Canada Study Visa Section */}
