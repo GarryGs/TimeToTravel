@@ -2,12 +2,18 @@
 import { usePathname } from "next/navigation"
 import { DropdownButton } from "./dropdownButton";
 import { useEffect } from "react";
-import { initFlowbite } from "flowbite";
 
 export const Header = () => {
-    useEffect( () => {
-        initFlowbite();
-    }, [])
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+          // Dynamically import flowbite to ensure it's executed only in the browser
+          import("flowbite").then((module) => {
+            const { initFlowbite } = module;
+            initFlowbite();
+          });
+        }
+      }, []);
+
     const path = usePathname();
 
     const isActive = (pathname: string) => {

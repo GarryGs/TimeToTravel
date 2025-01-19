@@ -6,7 +6,7 @@ import { Carousel } from 'flowbite'; // Ensure Flowbite Carousel is correctly im
 export const CarouselComponent = () => {
 
     useEffect(() => {
-
+        // Ensure this code only runs in the browser, not on the server
         if (typeof window === 'undefined' || typeof document === 'undefined') return;
 
         const carouselElement = document.getElementById('carousel-example');
@@ -89,25 +89,30 @@ export const CarouselComponent = () => {
                 carousel.next();
             });
         }
-    }, []);
+
+        // Cleanup listeners when component unmounts
+        return () => {
+            if (prevButton && nextButton) {
+                prevButton.removeEventListener('click', () => carousel.prev());
+                nextButton.removeEventListener('click', () => carousel.next());
+            }
+        };
+
+    }, []); // Empty dependency array ensures this effect runs once after initial render
 
     return (
         <div id="carousel-example" className="relative w-full mb-16" data-carousel="static">
             <div className="relative h-[15vh] overflow-hidden rounded-lg sm:h-[20vh] xl:h-[40vh] 2xl:h-[60vh]">
                 <div id="carousel-item-1" className="duration-700 ease-in-out" data-carousel-item>
-                    {/* Ensure the image or content for item 1 */}
                     <img className="w-full h-full object-fill" src="https://www.nextworldimmigrations.com/images/7943aa6a911fff4a.webp" alt="Slide 1" />
                 </div>
                 <div id="carousel-item-2" className="duration-700 ease-in-out" data-carousel-item>
-                    {/* Ensure the image or content for item 2 */}
                     <img className="w-full h-full object-fill" src="https://www.nextworldimmigrations.com/images/60d8eda472c511c9.webp" alt="Slide 2" />
                 </div>
                 <div id="carousel-item-3" className="duration-700 ease-in-out" data-carousel-item>
-                    {/* Ensure the image or content for item 3 */}
                     <img className="w-full h-full object-fill" src="https://www.nextworldimmigrations.com/images/ecd8b4d24bba7a34.webp" alt="Slide 3" />
                 </div>
                 <div id="carousel-item-4" className="duration-700 ease-in-out" data-carousel-item>
-                    {/* Ensure the image or content for item 4 */}
                     <img className="w-full h-full object-fill" src="https://www.nextworldimmigrations.com/images/6b297f0a6c06d07e.webp" alt="Slide 4" />
                 </div>
             </div>
