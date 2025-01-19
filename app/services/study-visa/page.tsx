@@ -1,7 +1,7 @@
 import { ServiceHeading } from "@components/serviceHeading";
 
 const StudyProps = {
-    imageUrl: "https://www.nextworldimmigrations.com/img/study-visa-home.png",
+    imageUrl: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/study-visa/study-visa2-u5ZBilD2CWTE6uhUsr3t5wcmVnksNY.png",
     title: "Study Visa",
 }
 
@@ -12,7 +12,7 @@ export default function StudyVisa() {
         <div className="grid grid-cols-1 xl:grid-cols-2 mx-6 xl:mx-60 my-16 gap-10">
             <img 
                 className="object-cover w-full h-auto rounded-xl" 
-                src="/canada.webp" 
+                src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/study-visa/study-canada-miR6DhTldpirA2obs3XGY7j70H0ouQ.webp" 
                 alt="Study in Canada" 
             />
             <div className="flex flex-col gap-10">
@@ -65,7 +65,7 @@ export default function StudyVisa() {
             </div>
             <img 
                 className="object-cover w-full h-auto rounded-2xl" 
-                src="/uk.png" 
+                src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/study-visa/study-uk-KKW6UNZ0BMBp7bTjIwECyqG8Uqn0fz.png" 
                 alt="Study in UK" 
             />
         </div>

@@ -4,7 +4,7 @@ export const GuideComp = () => {
     const countryData = [
         {
             name: "Australia",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/austa.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/australia-guide-d838lELlhVExiItVeTqP9T0GqPtqRe.jpg",
             points: [
                 "Variety of Courses",
                 "Multiple Scholarship Programs",
@@ -14,7 +14,7 @@ export const GuideComp = () => {
         },
         {
             name: "UK",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/vuAS.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/uk-guide-bKOffwBVZ8ux3akhg76TnPc1Ho7f8d.jpg",
             points: [
                 "Academic Excellence",
                 "Superior Courses",
@@ -26,7 +26,7 @@ export const GuideComp = () => {
         },
         {
             name: "Ireland",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/ierlandssd.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/ireland-guide-1h36Y2ygxIjKb5fOzMgBfiaMrgStO7.jpg",
             points: [
                 "New age technology courses",
                 "Multiple work opportunities",
@@ -38,7 +38,7 @@ export const GuideComp = () => {
         },
         {
             name: "New Zealand",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/newzealanddd.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/newzealand-guide-EE1HqoECWsXOxcGCOKLqX1q9VurAsX.jpg",
             points: [
                 "Affordable tuition fee",
                 "Great Scholarships programs",
@@ -49,7 +49,7 @@ export const GuideComp = () => {
         },
         {
             name: "Germany",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/germanyyy.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/germany-guide-hKiYzU4c7epFkkErIU9NILajHau7Tm.jpg",
             points: [
                 "New age technology courses",
                 "Multiple work opportunities",
@@ -61,7 +61,7 @@ export const GuideComp = () => {
         },
         {
             name: "Singapore",
-            imgSrc: "https://skylineimmigration.com/wp-content/uploads/2023/05/singaporeeee.jpg",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/destinations-guide/singapore-guide-I7PymAlu88Mbn9lruEbE1yiG5ftg8o.jpg",
             points: [
                 "Affordable tuition fee",
                 "Great Scholarships programs",

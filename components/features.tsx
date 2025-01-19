@@ -34,7 +34,7 @@ const features = [
   },
   {
     name: 'Expert Staff',
-    description: 'Our expert and educated staff helps you in every possible way to make your journey at Next World immigartions best.',
+    description: 'Our expert and educated staff helps you in every possible way to make your journey at Time to Travel Immigrations best.',
     icon: StaffIcon,
   },
   {
@@ -54,7 +54,7 @@ export const Features = () => {
               <h2 className="text-base font-semibold leading-7 text-indigo-600">Time To Travel</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Choose Us</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              Next World Immigration is a highly experienced VISA SPECIALIST.We believe in honesty, integrity and fairness in all dealings with our customers.
+              Time To Travel Immigration is a highly experienced VISA SPECIALIST.We believe in honesty, integrity and fairness in all dealings with our customers.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -74,7 +74,7 @@ export const Features = () => {
           </div>
           <img
             alt="Product screenshot"
-            src="https://www.niveeta.com/uploads/7-tips-corporate-designs-ideas.webp"
+            src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/office-WrBDqkwxgqt3oiCnhyK1BsWncggqJh.png"
             width={2432}
             height={1442}
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"

@@ -3,19 +3,19 @@ import { Card } from "@components/card"
 export const ServiceComp = () => {
     const servicesData = [
         {
-            imgSrc: "https://www.nextworldimmigrations.com/img/tourist-visa-home.png",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/tourist-visa/tourist-visa-aDPHoEvvL2h1J1G8ROq7Zo76hpTHkT.jpeg",
             CardTitle: "Tourist Visa",
             CardDesc: "A tourist visa is given for sightseeing. A visit visa, however, refers to a visa...",
             link: "/tourist-visa"
         },
         {
-            imgSrc: "https://www.nextworldimmigrations.com/img/study-visa-home.png",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/study-visa/Study-Visa-lgxS7P1cbNZMvuKajfIPsst1wA8fS3.jpg",
             CardTitle: "Study Visa",
             CardDesc: "A student visa is a type of non-immigrant visa. In some countries like Canada...",
             link: "/study-visa"
         },
         {
-            imgSrc: "https://www.nextworldimmigrations.com/img/spouse-visa.png",
+            imgSrc: "https://w5lyingog1fowzo0.public.blob.vercel-storage.com/spouse-visa/spouse-visa-My3X7fOyTrkiV9gIHR5A7ok0F6CwYA.jpg",
             CardTitle: "Spouse Visa",
             CardDesc: "What Are the Requirements for a UK Spouse Visa or Partner Visa ...",
             link: "/spouse-visa"

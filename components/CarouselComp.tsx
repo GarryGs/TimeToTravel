@@ -58,32 +58,32 @@ export const CarouselComponent = () => {
 
     return (
         <div id="carousel-example" className="relative w-full mb-16" data-carousel="static">
-            <div className="relative h-[15vh] overflow-hidden rounded-lg sm:h-[20vh] xl:h-[40vh] 2xl:h-[60vh]">
+            <div className="relative h-[25vh] overflow-hidden rounded-lg sm:h-[30vh] xl:h-[60vh] 2xl:h-[70vh]">
                 <div id="carousel-item-1" className="duration-700 ease-in-out" data-carousel-item>
                     <img
                         className="w-full h-full object-fill"
-                        src="https://www.nextworldimmigrations.com/images/7943aa6a911fff4a.webp"
+                        src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/carousel/image1-y2g9ETKsW9ZQ2DzzPxcdLG4d2VjHeT.webp"
                         alt="Slide 1"
                     />
                 </div>
                 <div id="carousel-item-2" className="duration-700 ease-in-out" data-carousel-item>
                     <img
                         className="w-full h-full object-fill"
-                        src="https://www.nextworldimmigrations.com/images/60d8eda472c511c9.webp"
+                        src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/carousel/image2-ZLAPWQMXO9feQ7xXzUgGfuUTPGVptr.webp"
                         alt="Slide 2"
                     />
                 </div>
                 <div id="carousel-item-3" className="duration-700 ease-in-out" data-carousel-item>
                     <img
                         className="w-full h-full object-fill"
-                        src="https://www.nextworldimmigrations.com/images/ecd8b4d24bba7a34.webp"
+                        src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/carousel/image3-uQ5LKV4qvvaxTw2FrfVLtHkM9arGV5.jpg"
                         alt="Slide 3"
                     />
                 </div>
                 <div id="carousel-item-4" className="duration-700 ease-in-out" data-carousel-item>
                     <img
                         className="w-full h-full object-fill"
-                        src="https://www.nextworldimmigrations.com/images/6b297f0a6c06d07e.webp"
+                        src="https://w5lyingog1fowzo0.public.blob.vercel-storage.com/carousel/image4-xPBDJDZI2ILhSXKNliSYDTmjQ1ztfz.jpg"
                         alt="Slide 4"
                     />
                 </div>
