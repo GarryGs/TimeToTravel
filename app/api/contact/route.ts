@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-const companyRecipientEmail = "sainigarry2006@gmail.com"
+const companyRecipientEmail = "garrygs059@gmail.com"
 
 export async function POST(req: NextRequest) {
     const { fullName, phoneNo, email, message } = await req.json();

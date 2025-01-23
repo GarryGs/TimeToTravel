@@ -8,3 +8,5 @@ export default function About() {
         <TeamComp></TeamComp>
     </>
 }
+
+//change _about to about to make it a public route
