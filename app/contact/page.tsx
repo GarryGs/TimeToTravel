@@ -1,10 +1,13 @@
 "use client"
 
 import { ContactComp } from "@components/ContactComp";
+import { useState } from "react";
 
 export default function Contact() {
+    const [loading, setLoading] = useState(false);
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        setLoading(true);
 
         const target = event.target as typeof event.target & {
             fullname: { value: string };
@@ -30,6 +33,8 @@ export default function Contact() {
             body: JSON.stringify(formData),
         });
 
+        setLoading(false);
+
         if (response.ok) {
             // Handle success (e.g., show a success message)
             alert('Message sent successfully!');
@@ -40,6 +45,6 @@ export default function Contact() {
     };
     
     return <>
-        <ContactComp onSubmitHandler={handleSubmit}></ContactComp>
+        <ContactComp onSubmitHandler={handleSubmit} isLoading={loading}></ContactComp>
     </>
 }
